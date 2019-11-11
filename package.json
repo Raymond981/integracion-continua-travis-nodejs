@@ -1,0 +1,17 @@
+{
+  "name": "integracion-continua",
+  "version": "1.0.0",
+  "description": "Integración continua con travis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha ./index.spec.js --timeout 60000 --exit"
+  },
+  "author": "José Ramón Palacios Martínez",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.0"
+  }
+}
