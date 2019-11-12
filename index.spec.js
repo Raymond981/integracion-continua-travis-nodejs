@@ -19,7 +19,7 @@ describe('Operaciones Matemáticas', () => {
   
     describe('Resta de dos números con un resultado esperado', () => {
       it('Resta de dos números es igual a 10', () => {
-        const res = operation.resta.value;
+        const res = metodo.resta.value;
         expect(res).to.equal(10);
       })
     })
